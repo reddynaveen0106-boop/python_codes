@@ -1,0 +1,31 @@
+# Sorting
+letters = ['c', 'd', 'a', 'b']
+letters.sort(reverse = True)
+print(letters)
+#Matrix
+
+matrix = [
+    ['a', 'b', 'c'],
+    ['d', 'e', 'f'],
+    ['g', 'h', 'i']
+]
+
+matrix[1].sort()
+print(matrix)
+
+# copying 
+letters = ['a', 'b', 'c']
+letters_copy = letters
+letters.pop()
+letters_copy.append('z')
+print('Orginal:', letters)
+print('Copy:', letters_copy)
+# Copying
+matrix = [
+    ['a', 'b'],   # Row 0
+    ['c', 'd'],   # Row 1
+]
+matrix_copy = matrix.copy()
+matrix.pop()
+print('Original:', matrix)
+print('Copy:      ', matrix_copy)
