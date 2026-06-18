@@ -59,3 +59,5 @@ letters[1] = 'y'
 letters = 'z'
 print(letters)
 print(type(letters))
+print(letters)
+print(type(letters))
