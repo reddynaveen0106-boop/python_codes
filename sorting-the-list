@@ -23,7 +23,7 @@ print('Copy:', letters_copy)
 # Copying
 matrix = [
     ['a', 'b'],   # Row 0
-    ['c', 'd'],   # Row 1
+    ['c', 'j'],   # Row 1
 ]
 matrix_copy = matrix.copy()
 matrix.pop()
