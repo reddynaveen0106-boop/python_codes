@@ -19,3 +19,6 @@ print(list(map(int, numbers)))
 names = ['naveen', 'reddy', 'Kumar']
 for n in map(str.strip, names):
     print(n)
+
+letters = ['a', '', 'b',None, 'c', False]
+print(list(filter(bool, letters)))
