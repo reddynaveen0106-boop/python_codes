@@ -16,3 +16,15 @@ write_log("App started")'''
             "domain": domain}
 
 print(clean_and_split_email("SARA@gMAil.com"))'''
+# Task: Check if a password meets the minimum length of 8 characters
+'''def is_valid_password(password):
+    return len(password) >= 8
+
+print(is_valid_password("123456"))
+print(is_valid_password("123456987"))'''
+# Task: check if email has a basic valid format
+
+def is_valid_email(email):
+    return "@" in email and "." in email
+
+print(is_valid_email("sararagamol.com"))
