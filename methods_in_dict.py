@@ -37,3 +37,20 @@ print(user)
 print("Removed Item:", age)
 
 user.popitem()
+print(user)
+
+# Creation
+user = {"id": None,
+        "name": None,
+        "age": None,
+        "city": None
+        }
+
+user = dict.fromkeys(["id", "name", "age" , "city"], None)
+print(user)
+        
+        
+        
+        
+        
+        
