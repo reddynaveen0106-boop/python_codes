@@ -47,10 +47,49 @@ def ms_dhoni():
     print("MS Dhoni is a GOAT in Indian cricket and he is a well known player across the and he is a proven finsher and only captain with all three format WC tropies i.e., t20i,champions trophy and the ODI wc")
 ms_dhoni()'''
 
-def clean_name(name):
-    cleaned = name.strip().lower()
-    print(cleaned)
+'''case_rule = "n/a" # global variable
+def clean_name(name): #Parameter
+    cleaned = name.strip() # Local Variable
+    if case_rule == "lower":
+        cleaned = cleaned.lower()
+    print("Cleaned:", cleaned)
 
 clean_name(" MkJkJkKjIKN   juJn kjj  jJJ JJiUWUEYDHBDH")
 clean_name("ehjdejhdejhejHDJSDJHS WDGEDHGHEDG HHJEFJ")
-clean_name("naveeN REDDY")
+clean_name("naveeN REDDY")'''
+
+# Building Full clean Name
+'''def clean_name(first_name, last_name, country):
+    first = first_name.strip().lower()
+    last = last_name.strip().lower()
+    full_name = first + " " + last
+    print(full_name)
+
+#Postional Aruguments
+clean_name (" MariA ", "SMITH", "DE")
+
+#Keyword Arguments
+clean_name (country= "DE", first_name= " MARia", last_name= "SMITH")
+
+#Mix arguments
+clean_name("MARIA", "SMITH", country= "DE")
+
+#Default
+clean_name ("Kumar", "Suresh", "in")'''
+
+#using the *args
+#calc the total of values
+def total (*args):
+    print(sum(args))
+total(1,2)
+total(1,2,3)
+
+# Create the user profile
+def create_user(**kwargs):
+    print(type(kwargs))
+    print(kwargs)
+    
+create_user(first_name= "MO",
+            last_name= "salah",
+            age=33,
+            country="Ind")
