@@ -1,4 +1,4 @@
-'''def going_to_gym():
+def going_to_gym():
     print("Ate Boiled eggs")
     print("wearing the shoes")
     print("walking to the gym")
@@ -33,21 +33,21 @@ print("Day->>>>>>>>>>>>>>>>>>>3")
 going_to_gym()
 study_plan()
 diet_plan()
-sleep_plan()'''
+sleep_plan()
 
 '''import math'''
 
-'''print(len("Python"))
+print(len("Python"))
 number = 4.2
-print(math.ceil(number))'''
-'''def greet():
+print(math.ceil(number))
+def greet():
     print("Hello")
 greet()
 def ms_dhoni():
     print("MS Dhoni is a GOAT in Indian cricket and he is a well known player across the and he is a proven finsher and only captain with all three format WC tropies i.e., t20i,champions trophy and the ODI wc")
-ms_dhoni()'''
+ms_dhoni()
 
-'''case_rule = "n/a" # global variable
+case_rule = "n/a" # global variable
 def clean_name(name): #Parameter
     cleaned = name.strip() # Local Variable
     if case_rule == "lower":
@@ -56,10 +56,10 @@ def clean_name(name): #Parameter
 
 clean_name(" MkJkJkKjIKN   juJn kjj  jJJ JJiUWUEYDHBDH")
 clean_name("ehjdejhdejhejHDJSDJHS WDGEDHGHEDG HHJEFJ")
-clean_name("naveeN REDDY")'''
+clean_name("naveeN REDDY")
 
 # Building Full clean Name
-'''def clean_name(first_name, last_name, country):
+def clean_name(first_name, last_name, country):
     first = first_name.strip().lower()
     last = last_name.strip().lower()
     full_name = first + " " + last
@@ -75,7 +75,7 @@ clean_name (country= "DE", first_name= " MARia", last_name= "SMITH")
 clean_name("MARIA", "SMITH", country= "DE")
 
 #Default
-clean_name ("Kumar", "Suresh", "in")'''
+clean_name ("Kumar", "Suresh", "in")
 
 #using the *args
 #calc the total of values
